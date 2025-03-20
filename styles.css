@@ -19,6 +19,7 @@
 img {
   width: 100%;
   display: block;
+  margin-bottom: 18px;
 }
 
 body {
@@ -33,7 +34,7 @@ h2 {
   line-height: 1.2;
   margin-top: 16px;
 }
- p {
+p {
   color: var(--clr-grey);
   margin-top: 16px;
   font-weight: 400;
@@ -54,6 +55,7 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .qr-code {
@@ -66,9 +68,7 @@ section {
   text-align: center;
 }
 
-
-
-.attribution{
+.attribution {
   position: absolute;
   left: 50%;
   bottom: 15px;
